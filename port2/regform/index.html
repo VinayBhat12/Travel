@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travelling page</title>
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!-- Link To CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+                  
+                    <div class="mydiv">
+                        <form id="rigistrationform" onsubmit="submitForm('redscript')">
+                            <h2>Rigistration Form</h2>
+                            <div class="form">
+                                <label for="firstname">Firstname</label>
+                                <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+        
+                            </div>
+                            <div class="form">
+                                <label for="lastname">Lastname</label>
+                                <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+                             </div>
+        
+        
+                            <div class="form">
+                                <label for="email">Your email<span class="mandatory"></span></label>
+        <input id="email" name="email" required aria-required="true" placeholder="yyyyzzzzz@gmail.com"  required>
+    </div>
+        <div class="form">
+        <label>   
+            packages :  
+            </label>   
+            <select>  
+            <option value="select">select</option>  
+            <option value="Kashmir">Kashmir package</option>  
+            <option value="Munnar">Munnar Package</option>  
+            <option value="Netravati">Netravati package</option>  
+            <option value="Kuduremukha">Kuduremukha package</option>  
+            <option value="Darjiling">Darjiling package</option>  
+            <option value="Wayanad">Wayanad package</option>
+            <option value="Kalkatta">Kalkatta package</option>    
+            </select> 
+                            </div>
+                            <div class="form">
+                                <label for="dob">Date of birth</label>
+                                <input type="date" id="dob" name="dob" placeholder="Date of birth" required>
+        
+                            </div>
+                            <div class="form">
+                                <label>   
+                                    Gender :  
+                                    </label>   
+                                    <select>  
+                                    <option value="select">select</option>  
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    </select>
+                            
+                                
+        
+                            </div>
+                        
+                <div class="form">
+                            <label  for="phone"> Mobile  number:</label><br>
+        
+          <input type="tel" id="phone" name="phone" placeholder="123-45-67890" pattern="[0-9]{10}" size="11" maxlength="10" required><br>
+          
+          
+          
+          
+        </div>
+        <div>
+            <button type="submit">Register</button>
+        </div>
+        
+        
+                       
+                    </div>
+                </form>
+                <script src="index.js"></script>
+                <div class="container">
+                    <marquee behavior="scroll" direction="right">
+                      Welcome to TRip Kro registration please register above form
+                    </marquee>
+                  </div>
+                </body>
+            
+        </html>
